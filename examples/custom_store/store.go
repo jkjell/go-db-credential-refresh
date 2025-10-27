@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/davepgreene/go-db-credential-refresh/driver"
+	"github.com/jkjell/go-db-credential-refresh/driver"
 )
 
 // ResponseHandler is a function type that retrieves credentials from a HTTP response

@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/davepgreene/go-db-credential-refresh/driver"
 	"github.com/hashicorp/vault-client-go"
 	"github.com/hashicorp/vault-client-go/schema"
+	"github.com/jkjell/go-db-credential-refresh/driver"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/postgres"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	"github.com/jkjell/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 // setupVault sets up a Vault server running in Docker then enables the plugins/configs we need for

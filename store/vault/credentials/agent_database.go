@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
 	"github.com/hashicorp/vault-client-go"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 // Map handles mapping data from a file on disk to a Credentials object. This

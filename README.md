@@ -4,6 +4,12 @@
 [![Test](https://github.com/jkjell/go-db-credential-refresh/workflows/Test/badge.svg)](https://github.com/jkjell/go-db-credential-refresh/actions/workflows/test.yml)
 [![Lint](https://github.com/jkjell/go-db-credential-refresh/workflows/Lint/badge.svg)](https://github.com/jkjell/go-db-credential-refresh/actions/workflows/lint.yml)
 
+## Upstream Project
+
+This repository is a fork of the upstream [respository](https://github.com/davepgreene/go-db-credential-refresh) from `davepgreene`. The fork was detached from the fork network because of minor patches and the need to avoid using a `replace` directive in the `go.mod` file of the [Archivista](github.com/in-toto/archivista) project.
+
+## General
+
 Go DB Credential Refresh is a driver to handle seamlessly reconnecting `database/sql` connections on credential
 rotation. This driver will work fine with static credentials but is designed for systems like
 [Hashicorp Vault](https://www.vaultproject.io/)'s
@@ -24,7 +30,7 @@ but users can register anything that implements
 ## Installation
 
 ```shell
-go get -u github.com/davepgreene/go-db-credential-refresh
+go get -u github.com/jkjell/go-db-credential-refresh
 ```
 
 ## Connector

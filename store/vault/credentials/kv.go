@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
 	"github.com/hashicorp/vault-client-go"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 // KvCredentials implements the CredentialLocation interface.

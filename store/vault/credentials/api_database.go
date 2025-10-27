@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
 	"github.com/hashicorp/vault-client-go"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 // APIDatabaseCredentials gets DB credentials from the Vault Database Secrets engine

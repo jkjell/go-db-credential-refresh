@@ -14,9 +14,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/davepgreene/go-db-credential-refresh/driver"
-	"github.com/davepgreene/go-db-credential-refresh/examples/db"
-	"github.com/davepgreene/go-db-credential-refresh/store"
+	"github.com/jkjell/go-db-credential-refresh/driver"
+	"github.com/jkjell/go-db-credential-refresh/examples/db"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"github.com/hashicorp/vault-client-go/schema"
 	authv1 "k8s.io/api/authentication/v1"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	"github.com/jkjell/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 const (

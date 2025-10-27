@@ -9,11 +9,11 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/davepgreene/go-db-credential-refresh/driver"
-	"github.com/davepgreene/go-db-credential-refresh/examples/db"
+	"github.com/jkjell/go-db-credential-refresh/driver"
+	"github.com/jkjell/go-db-credential-refresh/examples/db"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault"
-	vaultcredentials "github.com/davepgreene/go-db-credential-refresh/store/vault/credentials"
+	"github.com/jkjell/go-db-credential-refresh/store/vault"
+	vaultcredentials "github.com/jkjell/go-db-credential-refresh/store/vault/credentials"
 )
 
 const (

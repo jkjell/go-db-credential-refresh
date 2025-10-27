@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/vault-client-go"
 	"github.com/hashicorp/vault-client-go/schema"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	"github.com/jkjell/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 func TestGetFromVaultSecretsAPI(t *testing.T) {

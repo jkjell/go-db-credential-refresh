@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/vault-client-go/schema"
 
-	"github.com/davepgreene/go-db-credential-refresh/store/vault/vaulttest"
+	"github.com/jkjell/go-db-credential-refresh/store/vault/vaulttest"
 )
 
 func TestNewAPIDatabaseCredentials(t *testing.T) {

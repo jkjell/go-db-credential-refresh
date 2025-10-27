@@ -1,11 +1,11 @@
-module github.com/davepgreene/go-db-credential-refresh/store/vault
+module github.com/jkjell/go-db-credential-refresh/store/vault
 
 go 1.24.0
 
-replace github.com/davepgreene/go-db-credential-refresh => ../../
+replace github.com/jkjell/go-db-credential-refresh => ../../
 
 require (
-	github.com/davepgreene/go-db-credential-refresh v1.2.1
+	github.com/jkjell/go-db-credential-refresh v1.2.1
 	github.com/hashicorp/vault-client-go v0.4.3
 	github.com/testcontainers/testcontainers-go v0.39.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.39.0

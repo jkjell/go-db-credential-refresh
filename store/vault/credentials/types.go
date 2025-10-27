@@ -3,8 +3,8 @@ package vaultcredentials
 import (
 	"context"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
 	"github.com/hashicorp/vault-client-go"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 // CredentialLocation represents a location where credentials can be retrieved from.

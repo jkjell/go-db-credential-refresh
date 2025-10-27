@@ -1,4 +1,4 @@
-module github.com/davepgreene/go-db-credential-refresh
+module github.com/jkjell/go-db-credential-refresh
 
 go 1.23.0
 

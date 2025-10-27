@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/davepgreene/go-db-credential-refresh/store"
+	"github.com/jkjell/go-db-credential-refresh/store"
 )
 
 var (
