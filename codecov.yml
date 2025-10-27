@@ -1,5 +1,0 @@
----
-ignore:
-  - "store/vault/vaulttest"
-  - "store/vault/example"
-  - "examples"
