@@ -1,8 +1,8 @@
 # Go DB Credential Refresh
 
-[![Godoc Reference](https://godoc.org/github.com/davepgreene/go-db-credential-refresh?status.svg)](https://pkg.go.dev/github.com/davepgreene/go-db-credential-refresh)
-[![Test](https://github.com/davepgreene/go-db-credential-refresh/workflows/Test/badge.svg)](https://github.com/davepgreene/go-db-credential-refresh/actions/workflows/test.yml)
-[![Lint](https://github.com/davepgreene/go-db-credential-refresh/workflows/Lint/badge.svg)](https://github.com/davepgreene/go-db-credential-refresh/actions/workflows/lint.yml)
+[![Godoc Reference](https://godoc.org/github.com/jkjell/go-db-credential-refresh?status.svg)](https://pkg.go.dev/github.com/jkjell/go-db-credential-refresh)
+[![Test](https://github.com/jkjell/go-db-credential-refresh/workflows/Test/badge.svg)](https://github.com/jkjell/go-db-credential-refresh/actions/workflows/test.yml)
+[![Lint](https://github.com/jkjell/go-db-credential-refresh/workflows/Lint/badge.svg)](https://github.com/jkjell/go-db-credential-refresh/actions/workflows/lint.yml)
 
 Go DB Credential Refresh is a driver to handle seamlessly reconnecting `database/sql` connections on credential
 rotation. This driver will work fine with static credentials but is designed for systems like
