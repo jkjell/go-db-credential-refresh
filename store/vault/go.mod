@@ -9,7 +9,7 @@ require (
 	github.com/hashicorp/vault-client-go v0.4.3
 	github.com/testcontainers/testcontainers-go v0.39.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.39.0
-	github.com/testcontainers/testcontainers-go/modules/vault v0.38.0
+	github.com/testcontainers/testcontainers-go/modules/vault v0.39.0
 	k8s.io/api v0.34.1
 )
 
@@ -50,7 +50,7 @@ require (
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/pgtype v1.14.4 // indirect
 	github.com/jackc/pgx/v4 v4.18.3 // indirect
-	github.com/jackc/pgx/v5 v5.7.5 // indirect
+	github.com/jackc/pgx/v5 v5.7.6 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
