@@ -29,8 +29,3 @@ jobs:
       - name: Test
         working-directory: ${{ matrix.dir }}
         run: go test -mod=readonly ./... -coverprofile=coverage.txt
-      - name: Coverage
-        uses: codecov/codecov-action@v5
-        with:
-          files: ${{ matrix.dir }}/coverage.txt
-          token: ${{ secrets.CODECOV_TOKEN }}
