@@ -8,7 +8,7 @@ replace github.com/jkjell/go-db-credential-refresh => ../../
 
 require (
 	github.com/aws/aws-sdk-go-v2 v1.39.6
-	github.com/aws/aws-sdk-go-v2/credentials v1.18.22
+	github.com/aws/aws-sdk-go-v2/credentials v1.18.23
 	github.com/aws/aws-sdk-go-v2/feature/rds/auth v1.6.13
 	github.com/jkjell/go-db-credential-refresh v1.2.1
 	github.com/mitchellh/mapstructure v1.5.0
