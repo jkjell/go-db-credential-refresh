@@ -20,10 +20,10 @@ func NewStaticStore(username, password string) *Static {
 	}
 }
 
-func (s Static) Get(ctx context.Context) (driver.Credentials, error) {
+func (s Static) Get(_ context.Context) (driver.Credentials, error) {
 	return s.credentials, nil
 }
 
-func (s Static) Refresh(ctx context.Context) (driver.Credentials, error) {
+func (s Static) Refresh(_ context.Context) (driver.Credentials, error) {
 	return s.credentials, nil
 }
