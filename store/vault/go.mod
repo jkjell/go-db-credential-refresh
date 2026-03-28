@@ -1,6 +1,6 @@
 module github.com/jkjell/go-db-credential-refresh/store/vault
 
-go 1.25.0
+go 1.26.1
 
 replace github.com/jkjell/go-db-credential-refresh => ../../
 

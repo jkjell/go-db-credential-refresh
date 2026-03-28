@@ -1,6 +1,6 @@
 module github.com/jkjell/go-db-credential-refresh
 
-go 1.24.0
+go 1.26.1
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3

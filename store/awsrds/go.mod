@@ -1,8 +1,6 @@
 module github.com/jkjell/go-db-credential-refresh/store/awsrds
 
-go 1.24.0
-
-toolchain go1.25.0
+go 1.26.1
 
 replace github.com/jkjell/go-db-credential-refresh => ../../
 
