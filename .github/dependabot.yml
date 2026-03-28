@@ -13,3 +13,7 @@ updates:
     directory: /store/vault
     schedule:
       interval: weekly
+  - package-ecosystem: github-actions
+    directory: .github
+    schedule:
+      interval: weekly
