@@ -8,7 +8,7 @@ require (
 	github.com/hashicorp/vault-client-go v0.4.3
 	github.com/jkjell/go-db-credential-refresh v1.2.2
 	github.com/testcontainers/testcontainers-go v0.41.0
-	github.com/testcontainers/testcontainers-go/modules/postgres v0.40.0
+	github.com/testcontainers/testcontainers-go/modules/postgres v0.41.0
 	github.com/testcontainers/testcontainers-go/modules/vault v0.41.0
 	k8s.io/api v0.35.3
 )
